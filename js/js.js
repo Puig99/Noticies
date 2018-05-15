@@ -1,5 +1,5 @@
 
-$.getJSON("json/json.json", function(jsonObject){
+$.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(jsonObject){
 	pintar(jsonObject);
 });
 
