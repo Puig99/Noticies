@@ -1,0 +1,26 @@
+
+#barra{margin-bottom: 0px !important;
+}
+#botonet{ margin:30px;
+}
+
+#contenido{ padding-right:336px;
+}
+
+#publicitat{display:none;
+}
+
+#publi2{display:none;
+}
+
+
+@media screen and (min-width: 768px){
+	#publicitat{position:absolute;
+			right:0px;
+			width:336px;
+			height:600px;
+			display:inline;
+	}
+}
+#dinerito{text-align:center;
+}
