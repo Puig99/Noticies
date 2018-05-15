@@ -6,7 +6,7 @@ $.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(
 
 function pintar(json){
 	$.each(json, function(i, item ){
-		  $("#out").append( "<li id='" + i + "'>" + item.titulo+ " " + item.descripcio + "</li>" );
+		  $("#out").append( "<li id='" + i + "'>" + item.titulo+ " " + item.descripcion + "</li>" );
   });  
 }	
 		
