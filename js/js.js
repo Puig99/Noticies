@@ -6,21 +6,21 @@ $.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(
 
 function pintar(json){
 	$.each(json, function(i, item ){
-		  $("#out").append( "<div class="col-sm-6 col-md-6"> 
-				   <a href="#">
-				   <div class="thumbnail">
-				   <div class="caption">
-				   <h3 class="text-justify">		</h3>
-				   </div>
-				   <img src="#" alt"ups class="img-responsive">
-				   <div class="caption">
-				   	<p class="text-justify">	</p>
-				   	<p class="text-left">		</p>
-				   </div>
-				   </div>
-				   </a>
-				   </div>" );
-  });  
+		  $("#out").append('<div class="col-sm-6 col-md-6">' + 
+				  '<a href="#">' +
+				  '<div class="thumbnail">' +
+				  '<div class="caption">' +
+				  '<h3 class="text-justify">' +		"</h3>" +
+				  "</div>" +
+				  '<img src="#" alt"ups class="img-responsive">' +
+				  '<div class="caption">' +
+				   '<p class="text-justify">' + 	"</p>" +
+				   	'<p class="text-left">' +	"</p>" + 
+				   "</div>" +
+				   "</div>" +
+				   "</a>" +
+				   "</div>");
+});  
 }	
 		
 	/*	$(function(){
