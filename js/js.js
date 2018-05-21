@@ -6,7 +6,8 @@ $.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(
 
 function pintar(json){
 	$.each(json, function(i, item ){
-		  $("#out").append('<div class="col-sm-6 col-md-6">' + 
+		  $("#out").append('<div class="row">' +
+			  '<div class="col-sm-6 col-md-6">' + 
 				  '<a href="#">' +
 				  '<div class="thumbnail">' +
 				  '<div class="caption">' +
@@ -19,6 +20,7 @@ function pintar(json){
 				   "</div>" +
 				   "</div>" +
 				   "</a>" +
+				   "</div>" +
 				   "</div>");
 });  
 }	
