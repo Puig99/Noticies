@@ -24,3 +24,15 @@
 }
 #dinerito{text-align:center;
 }
+
+.bg{color: green;
+	background-image: url("../img/rift.jpg");
+	height: 2%;
+	background-position: center;
+    background-repeat: no-repeat;
+	
+}
+
+html,body{background-color: #B0A9AA;
+
+}
