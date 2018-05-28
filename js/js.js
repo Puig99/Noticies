@@ -3,7 +3,7 @@ $.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(
 	pintar(jsonObject);
 });
 
-/*
+
 function pintar(json){
 	$.each(json, function(i, item ){
 		  $("#out").append('<div class="row">' +
@@ -23,8 +23,7 @@ function pintar(json){
 				   "</div>" +
 				   "</div>");
 });  
-}	
-	*/	
+}		
 	/*	$(function(){
 			$("button").click(function(){
 			$("#contenido").append('<div id="contenido" class="container"><div class="row"><div class="col-sm-6"><a href="#"> NOTICIA 1 </a></div><div class="col-sm-6"><a href="#"> NOTICIA 2 </a></div></div>')}
