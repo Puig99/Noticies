@@ -9,7 +9,7 @@ $(function (){
 		
 	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
 		if (p < 3) {
-		$.getJSON("https://rawgit.com/Puig99/Noticies/master/json/" + p + ".json", function( jsonObject ) {
+		$.getJSON("https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function( jsonObject ) {
 			pintar( jsonObject );
 	
 		})
