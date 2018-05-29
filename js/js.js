@@ -1,7 +1,7 @@
 var p=1
 /* SCROLL */
 
-$(function(){
+$(function (){
 	$(window).scroll(function (){
 		console.log("ScrollTop: "+ $(window).scrollTop()+
 		"\n alto ventana: " + $(window).height() +
@@ -9,14 +9,13 @@ $(function(){
 		
 	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
 		if (p < 3) {
-		$.getJSON( "https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function(jsonObject){
-	pintar(jsonObject);
-
+		$.getJSON("https://rawgit.com/Puig99/Noticies/master/json/" + p + ".json", function( jsonObject ) {
+			pintar( jsonObject );
 	
 		})
 		p++;
-	else{
-			 $('#btn').text('No más noticias');
+		}else{
+			 $('#btn').text('No hay más noticias');
 		};
 		
 	};
