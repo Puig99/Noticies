@@ -1,7 +1,23 @@
+var p=1
+/* SCROLL */
 
-$.getJSON( "https://rawgit.com/Puig99/Noticies/master/json/json.json", function(jsonObject){
+$(function(){
+	$(window).scroll(function (){
+		console.log("ScrollTop: "+ $(window).scrollTop()+
+		"\n alto ventana: " + $(window).height() +
+		"\n alto documento: " + $(document).height() +"\n");
+		
+	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
+		if (numero < 3) {
+		$.getJSON( "https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function(jsonObject){
 	pintar(jsonObject);
-});
+
+	
+		})
+		p++;
+
+
+
 
 
 function pintar(json){
