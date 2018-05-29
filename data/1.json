@@ -1,19 +1,25 @@
 [{
-  "titulo":"
-  "descripcion":
-  "img":
-  "fecha": 
+  "titulo":"Dominion se retira de LoL"
+  "descripcion":" El famosisimo mapa del MOBA Lik of leiens serà retirado del juego este proximo martes debido a que no lo juega ni dios ya que es un mierdon de mapa, y encima feo de la hostia"
+  "img":"img/domin.jpg"
+  "fecha": "10/05/16"
  },
  {
-  "titulo":
-  "descripcion":
-  "img":
-  "fecha":
+  "titulo": "Llega Jhin a la Grieta del Invocador"
+  "descripcion":" El persoanje este esta tope de guapo y te lo acaban de meter en el servidor live, no se porque sigues leyendo esto y no probando a Jhin. Venga, tira"
+  "img":"img/jhin.jpg"
+  "fecha":"24/04/16"
   },
   {
-    "titulo":
-    "descripcion":
-    "img":
-    "fecha":
+    "titulo":"Tutorial para salir rapido de madera 5"
+    "descripcion":" En esta ocasión os presentamos un tutorial que os ayudará a salir del pedazo pozo en el que estais metidos. Ánimos, cracks"
+    "img":"img/elo.jpg"
+    "fecha":"13/04/16"
+  },
+ {
+   "titulo":"Actualización de campeon: Poppo"
+   "descripcion":" El mítico campeón Poppo recibirà una actualización completa en las proximas versiones del lik of leins"
+   "img": "img/poppo.jpg"
+   "fecha":" 1/07/16"
   }]
   
