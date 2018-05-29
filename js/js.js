@@ -29,16 +29,16 @@ $(function (){
 function pintar(json){
 	$.each(json, function(i, item ){
 		  $("#out").append('<div class="row">' +
-			  '<div class="col-sm-6 col-md-6">' + 
+			  '<div class="col-sm-6 col-md-6">' +
 				  '<a href="#">' +
 				  '<div class="thumbnail">' +
 				  '<div class="caption">' +
-				  '<h3 class="text-justify">' +		"</h3>" +
+				  '<h3 class="text-justify">' +	item.titulo +	"</h3>" +
 				  "</div>" +
-				  '<img src="#" alt"ups class="img-responsive">' +
+				  '<img src=" ' + item.imagen + '" alt"ups class="img-responsive">' +
 				  '<div class="caption">' +
-				   '<p class="text-justify">' + 	"</p>" +
-				   	'<p class="text-left">' +	"</p>" + 
+				   '<p class="text-justify">' + item.descripcion +	"</p>" +
+				   	'<p class="text-left">' + item.fecha +	"</p>" + 
 				   "</div>" +
 				   "</div>" +
 				   "</a>" +
