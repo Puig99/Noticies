@@ -8,17 +8,24 @@ $(function(){
 		"\n alto documento: " + $(document).height() +"\n");
 		
 	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
-		if (numero < 3) {
+		if (p < 3) {
 		$.getJSON( "https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function(jsonObject){
 	pintar(jsonObject);
 
 	
 		})
 		p++;
-
-
-
-
+	else{
+			 $('#btn').text('No más noticias');
+		};
+		
+	};
+	});
+	$("#btn").click(function (){
+		cargar ();
+		p++;
+	});
+});
 
 function pintar(json){
 	$.each(json, function(i, item ){
@@ -40,11 +47,12 @@ function pintar(json){
 				   "</div>");
 });  
 }		
-	/*	$(function(){
-			$("button").click(function(){
-			$("#contenido").append('<div id="contenido" class="container"><div class="row"><div class="col-sm-6"><a href="#"> NOTICIA 1 </a></div><div class="col-sm-6"><a href="#"> NOTICIA 2 </a></div></div>')}
+
+	function cargar(){
+		$.getJSON( "https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function(jsonObject){
+	pintar(jsonObject);
 		});
-		*/
+	};
 /* IMATGES PUBLICITAT PAGINA GRAN*/	
 		var contador=1;
 var temporizador = setInterval(myTimer,1000);
