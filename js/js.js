@@ -8,9 +8,7 @@ $(function (){
 		"\n alto documento: " + $(document).height() +"\n");
 		
 	if ($(window).scrollTop() + $(window).height() >= $(document).height()){
-		if (p < 3) {
-		$.getJSON("https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function( jsonObject ) {
-			pintar( jsonObject );
+		if (p < 3) { cargar()
 	
 		})
 		p++;
