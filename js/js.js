@@ -35,7 +35,7 @@ function pintar(json){
 				  '<div class="caption">' +
 				  '<h3 class="text-justify">' +	item.titulo +	"</h3>" +
 				  "</div>" +
-				  '<img src=" ' + item.imagen + '" alt"ups class="img-responsive">' +
+				  '<img src=" ' + item.img + '" alt"ups class="img-responsive">' +
 				  '<div class="caption">' +
 				   '<p class="text-justify">' + item.descripcion +	"</p>" +
 				   	'<p class="text-left">' + item.fecha +	"</p>" + 
