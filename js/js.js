@@ -7,7 +7,7 @@ $(function (){
 		"\n alto ventana: " + $(window).height() +
 		"\n alto documento: " + $(document).height() +"\n");
 		
-	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
+	if ($(window).scrollTop() + $(window).height() >= $(document).height()){
 		if (p < 3) {
 		$.getJSON("https://rawgit.com/Puig99/Noticies/master/data/" + p + ".json", function( jsonObject ) {
 			pintar( jsonObject );
