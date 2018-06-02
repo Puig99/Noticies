@@ -13,7 +13,7 @@ $(function (){
 		if (p < 3) { cargar()
 	
 		}
-		numero++;
+		p++;
 		}else{
 			 $('#btn').text('No hay más noticias');
 		};
@@ -22,7 +22,7 @@ $(function (){
 	});
 	$("#btn").click(function (){
 		cargar ();
-		numero++;
+		p++;
 	});
 });
 
