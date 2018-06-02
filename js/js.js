@@ -1,17 +1,19 @@
-var p=1
-/* SCROLL */
+var a=3;
+var p=1;
 
+
+//Funcion que mide el scroll de la pagina y cuando llega al final carga dichero json ademas cambia texto en boton
 $(function (){
 	$(window).scroll(function (){
 		console.log("ScrollTop: "+ $(window).scrollTop()+
 		"\n alto ventana: " + $(window).height() +
 		"\n alto documento: " + $(document).height() +"\n");
 		
-	if ($(window).scrollTop() + $(window).height() >= $(document).height()){
+	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
 		if (p < 3) { cargar()
 	
 		})
-		p++;
+		numero++;
 		}else{
 			 $('#btn').text('No hay más noticias');
 		};
@@ -20,7 +22,7 @@ $(function (){
 	});
 	$("#btn").click(function (){
 		cargar ();
-		p++;
+		numero++;
 	});
 });
 
