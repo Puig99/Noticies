@@ -18,7 +18,7 @@ $(function (){
 			 $('#btn').text('No hay más noticias');
 		};
 		
-	};
+	});
 	});
 	$("#btn").click(function (){
 		cargar ();
