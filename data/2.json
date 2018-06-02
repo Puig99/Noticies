@@ -1,18 +1,18 @@
 [{
-  "titulo":"
-  "descripcion":
-  "img":
-  "fecha": 
+  "titulo":"Pyke llega a la Grieta del Invocador"
+  "descripcion":"El nuevo campeón de la Liga de Leyendas llega acompañado de un evento temático relacionado con su historia, que es super edgy btw. Es asqueroso jugar contra el, la verdad"
+  "img":"img/pyke.jpg"
+  "fecha":" 30/05/18"
  },
  {
-  "titulo":
-  "descripcion":
-  "img":
-  "fecha":
+  "titulo": "Nuevo streamer español destacado: Motroco!!"
+  "descripcion":" El legendario ADC de LoL se ha vuelto toda una celebridad. Hace streams sin camiseta, tal vez eso tenga relacion con su fama"
+  "img":"img/motroco.jpg"
+  "fecha":" 02/02/14"
   },
   {
-    "titulo":
-    "descripcion":
-    "img":
-    "fecha":
+    "titulo":"Fin de semana de doble PI"
+    "descripcion":" Este proximo fin de semana se duplicaran los PI obtenidos por partida, asi podras gastartelos en cambios de nombres absurdos como hago yo siempre"
+    "img":"img/doblepi.jpg"
+    "fecha":" 23/01/14"
   }]
