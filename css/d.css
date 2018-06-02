@@ -4,7 +4,9 @@
 #botonet{ margin:30px;
 }
 
-#contenido, noticia1{ padding-right:336px;
+#contenido{ padding-right:336px;
+}
+#noticia1{ padding-right:336px;
 }
 
 #publicitat{display:block;
