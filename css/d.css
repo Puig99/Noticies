@@ -27,7 +27,7 @@ html,body{background-color: #B0A9AA;
 
 }
 
-/*@media screen and (min-width: 768px){
+@media screen and (min-width: 768px){
 	#publicitat{position:absolute;
 			right:0px;
 			width:336px;
@@ -35,4 +35,4 @@ html,body{background-color: #B0A9AA;
 			display:inline;
 	}
 }
-*/
+
