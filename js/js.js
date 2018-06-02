@@ -12,7 +12,7 @@ $(function (){
 	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()){
 		if (p < 3) { cargar()
 	
-		})
+		}
 		numero++;
 		}else{
 			 $('#btn').text('No hay más noticias');
