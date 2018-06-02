@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<title> Surrender at 15! </title>
+<link>https://rawgit.com/Puig99/Noticies/master/news.html</link>
+<description> Noticiari parodia del videojoc League of Legends i les noticies relacionades amb aquest i el mon del e-sports </description>
+<item> 
+<title>Corean washed up players</title> 
+<link>https://rawgit.com/Puig99/Noticies/master/news1.html </link>
+<description>El equipo coreano de "KingZone DragonX" perdió la final del evento internacional el pasado domingo contra Uzi y los otros 4 randoms </description>
+<fecha>20/05/18 </fecha>
+</item>
+
+<item>
+<title> League of Sebastián </title>
+<link>https://rawgit.com/Puig99/Noticies/master/news2.html </link>
+<description> Ahora le toca mandar a él. Es tu nuevo jefe. Dirigirà tu vida como quiera.
+				Quieres saber porque? Pues haberte leido el parche oficial que aquí solo decimos tonterías </description>
+<fecha> 15/05/18 </fecha>
+</item>
+
+<item>
+<title> Cancelan el modo de juego "Clash" </title>
+<link> </link>
+<description> Se ha cancelado el modo de juego Clash, programado
+				para este fin de semana, debido a un error grave relacionado con este.
+				No lloreis mucho, que sois malisimos, y además tenemos ARURF 
+  </description>
+  <fecha> 25/05/18 </fecha>
+  </item>
+  </channel>
+  </rss>
