@@ -35,7 +35,7 @@ if (contador2==9) contador2=0;
 var a=3;
 var p=1;
 
-
+/*
 //Funcion que mide el scroll de la pagina y cuando llega al final carga dichero json ademas cambia texto en boton
 $(function (){
 	$(window).scroll(function (){
@@ -59,6 +59,7 @@ $(function (){
 		p++;
 	});
 });
+*/
 
 function pintar(json){
 	$.each(json, function(i, item ){
